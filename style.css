@@ -22,9 +22,11 @@
     /* height: 600px; */
     padding: 16rem;
 }
-.bg-primary{
+.bg{
     background-color: #88c8bc;
 }
+
+
 li {
     margin-right: 22px;
 }
