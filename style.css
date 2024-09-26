@@ -1,0 +1,53 @@
+* {
+    color: #595959;
+}
+
+.font-family {
+    font-family: 'Poppins', monospace;
+}
+
+.banner-img {
+    background-image: url('https://muhammad-hassam.github.io/Ecommerce-UI/images/img_bg_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 600px; */
+    padding: 26rem;
+
+}
+
+.banner-img-shop {
+    background-image: url('	https://muhammad-hassam.github.io/Ecommerce-UI/images/cover-img-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 600px; */
+    padding: 16rem;
+}
+
+li {
+    margin-right: 22px;
+}
+
+.m-unset {
+    margin-bottom: unset;
+}
+
+
+.img-brands {
+    width: 15rem;
+    margin: 20px;
+}
+
+
+.text-decoration {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:640px) {
+    .banner-img-shop {
+        padding: 6rem;
+    }
+
+    .banner-img {
+        padding: 8rem;
+    }
+}
