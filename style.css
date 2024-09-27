@@ -76,6 +76,9 @@ li {
 }
 
 @media screen and (max-width:640px) {
+    .small{
+        font-size: 3rem;
+    }
     .banner-img-shop {
         padding: 6rem;
     }
@@ -95,15 +98,17 @@ li {
     .banner-img-shop {
         background-size: cover;
     }
-
+    
     .text-cen {
         text-align: center;
     }
-
+    .h1{
+        font-size: 1rem;
+    }
     .banner-img {
         height: 30vh;
     }
-
+    
     .fs {
         font-size: 1rem;
     }
@@ -118,5 +123,12 @@ li {
 @media screen and (min-width:1200px) {
     .ms {
         margin-right: -4rem;
+    }
+    .h11{
+        padding-bottom: 2rem;
+        font-size: 3rem;
+    }
+    .small{
+        font-size: 5rem;
     }
 }
