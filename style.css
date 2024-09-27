@@ -1,7 +1,8 @@
 * {
     color: #595959;
 }
-body{
+
+body {
     min-height: 100vh;
 }
 
@@ -19,10 +20,19 @@ body{
 }
 
 .banner-img-shop {
-    background-image: url('	https://muhammad-hassam.github.io/Ecommerce-UI/images/cover-img-1.jpg');
+    background-image: url('https://muhammad-hassam.github.io/Ecommerce-UI/images/cover-img-1.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+.about-img {
+    background-image: url('https://muhammad-hassam.github.io/Ecommerce-UI/images/about.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    height: 60vh;
 }
 
 .cover {
@@ -53,9 +63,6 @@ li {
     text-decoration: underline;
 }
 
-footer {
-    
-}
 
 @media screen and (max-width:640px) {
     .banner-img-shop {
@@ -73,11 +80,17 @@ footer {
     .banner-img {
         height: 30vh;
     }
+    .about-img{
+        height: 20vh;
+    }
 }
 
 @media screen and (max-width:1040px) {
     .text-cen {
         text-align: center;
+    }
+    .about-img{
+        height: 50vh;
     }
 }
 
