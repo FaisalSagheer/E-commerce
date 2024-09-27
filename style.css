@@ -80,7 +80,9 @@ li {
     position: absolute;
 }
 
-
+.footer{
+ margin-top: auto;   
+}
 @media screen and (max-width:420px) {
     .small {
         font-size: 3rem;
