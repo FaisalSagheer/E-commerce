@@ -1,6 +1,8 @@
 * {
     color: #595959;
-       overflow-x: hidden; 
+}
+body{
+    min-height: 100vh;
 }
 
 .font-family {
@@ -22,11 +24,12 @@
     background-size: contain;
     background-position: center;
 }
-.cover{
 
+.cover {
     padding: 200px;
 }
-.bg{
+
+.bg {
     background-color: #88c8bc;
 }
 
@@ -50,6 +53,10 @@ li {
     text-decoration: underline;
 }
 
+footer {
+    
+}
+
 @media screen and (max-width:640px) {
     .banner-img-shop {
         padding: 6rem;
@@ -58,22 +65,24 @@ li {
     .banner-img {
         padding: 8rem;
     }
-    .text-cen{
+
+    .text-cen {
         text-align: center;
     }
-    .banner-img{
+
+    .banner-img {
         height: 30vh;
     }
 }
 
-@media screen and (max-width:1040px){
-    .text-cen{
+@media screen and (max-width:1040px) {
+    .text-cen {
         text-align: center;
     }
 }
 
 @media screen and (min-width:1200px) {
-    .ms{
+    .ms {
         margin-right: -4rem;
     }
 }
