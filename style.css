@@ -1,5 +1,6 @@
 * {
     color: #595959;
+       overflow-x: hidden; 
 }
 
 .font-family {
@@ -10,9 +11,9 @@
     background-image: url('https://muhammad-hassam.github.io/Ecommerce-UI/images/img_bg_1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 600px; */
-    padding: 26rem;
-    opacity: .77;
+    background-position: center;
+    height: 90vh;
+    /* padding: 16rem; */
 }
 
 .banner-img-shop {
@@ -53,5 +54,23 @@ li {
 
     .banner-img {
         padding: 8rem;
+    }
+    .text-cen{
+        text-align: center;
+    }
+    .banner-img{
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width:1040px){
+    .text-cen{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .ms{
+        margin-right: -4rem;
     }
 }
