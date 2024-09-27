@@ -19,9 +19,12 @@
 .banner-img-shop {
     background-image: url('	https://muhammad-hassam.github.io/Ecommerce-UI/images/cover-img-1.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    /* height: 600px; */
-    padding: 16rem;
+    background-size: contain;
+    background-position: center;
+}
+.cover{
+
+    padding: 200px;
 }
 .bg{
     background-color: #88c8bc;
