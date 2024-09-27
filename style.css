@@ -62,13 +62,22 @@ li {
 .text-decoration {
     text-decoration: underline;
 }
-
-
+.fs{
+    font-size: 2rem;
+}
+.bgg{
+    background-color: #f6f3f3;
+}
+.bggg{
+    background-color: #f6f3f3;
+}
 @media screen and (max-width:640px) {
     .banner-img-shop {
         padding: 6rem;
     }
-
+    /* .bgg{
+        background: none;
+    } */
     .banner-img {
         padding: 8rem;
     }
@@ -80,17 +89,14 @@ li {
     .banner-img {
         height: 30vh;
     }
-    .about-img{
-        height: 20vh;
+    .fs{
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width:1040px) {
     .text-cen {
         text-align: center;
-    }
-    .about-img{
-        height: 50vh;
     }
 }
 
