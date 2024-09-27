@@ -62,24 +62,34 @@ li {
 .text-decoration {
     text-decoration: underline;
 }
-.fs{
+
+.fs {
     font-size: 2rem;
 }
-.bgg{
+
+.bgg {
     background-color: #f6f3f3;
 }
-.bggg{
+
+.bggg {
     background-color: #f6f3f3;
 }
+
 @media screen and (max-width:640px) {
     .banner-img-shop {
         padding: 6rem;
     }
-    .bggg{
+
+    .bggg {
         background: none;
     }
+
     .banner-img {
         padding: 8rem;
+    }
+
+    .banner-img-shop {
+        background-size: cover;    
     }
 
     .text-cen {
@@ -89,7 +99,8 @@ li {
     .banner-img {
         height: 30vh;
     }
-    .fs{
+
+    .fs {
         font-size: 1rem;
     }
 }
