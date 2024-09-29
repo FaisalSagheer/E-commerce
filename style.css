@@ -148,7 +148,7 @@ li {
     }
 }
 
-@media screen and (max-width:1040px) {
+@media screen and (min-width:1040px) {
     .text-cen {
         text-align: center;
     }
