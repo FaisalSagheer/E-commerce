@@ -146,6 +146,9 @@ li {
         margin-top: 4rem;
         height: 50vh;
     }
+    .about_heading{
+        font-size: .5rem;
+    }
 }
 
 @media screen and (max-width:1040px) {
