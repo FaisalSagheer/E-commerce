@@ -85,7 +85,7 @@ li {
 }
 
 @media screen and (max-width:420px) {
-    .small {
+    .small1 {
         font-size: 3rem;
     }
 
@@ -133,7 +133,7 @@ li {
         background-position: 0 0;
         height: 49vh;
     }
-    .small {
+    .small1 {
         font-size: 3rem;
     }
     .cover {
@@ -164,7 +164,7 @@ li {
     }
 
     
-    .small {
+    .small1 {
         font-size: 5rem;
     }
     .h11 {
