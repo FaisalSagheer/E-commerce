@@ -133,7 +133,9 @@ li {
         background-position: 0 0;
         height: 49vh;
     }
-
+    .small {
+        font-size: 3rem;
+    }
     .cover {
         padding: 80px;
     }
