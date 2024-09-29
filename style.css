@@ -131,7 +131,7 @@ li {
     .banner-img {
         background-size: contain;
         background-position: 0 0;
-        height: 49vh;
+        height: auto;
     }
 
     .cover {
@@ -151,6 +151,9 @@ li {
 @media screen and (max-width:1040px) {
     .text-cen {
         text-align: center;
+    }
+    .banner-img{
+        height: 30vh;
     }
 }
 
