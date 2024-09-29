@@ -152,10 +152,6 @@ li {
     .text-cen {
         text-align: center;
     }
-
-    .banner-img {
-        height: 49vh;
-    }
 }
 
 @media screen and (min-width:1200px) {
