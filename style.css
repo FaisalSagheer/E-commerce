@@ -146,13 +146,12 @@ li {
         margin-top: 4rem;
         height: 50vh;
     }
-}
 
-@media screen and (min-width:1040px) {
     .text-cen {
         text-align: center;
     }
 }
+
 
 @media screen and (min-width:1200px) {
     .ms {
