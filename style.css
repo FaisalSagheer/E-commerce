@@ -158,16 +158,17 @@ li {
         margin-right: -4rem;
     }
 
-    .h11 {
-        padding-bottom: 2rem;
-        font-size: 3rem;
-    }
-
-    .h1 {
-        font-size: 3rem;
-    }
-
+    
     .small {
         font-size: 5rem;
     }
+}
+
+.h11 {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.h1 {
+    font-size: 3rem;
 }
