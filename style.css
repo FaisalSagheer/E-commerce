@@ -78,6 +78,7 @@ li {
 
 .position {
     position: absolute;
+    padding-top: 20px;
 }
 
 .footer {
